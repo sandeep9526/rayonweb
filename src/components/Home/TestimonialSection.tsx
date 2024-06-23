@@ -1,6 +1,12 @@
+"use client"
 import React from 'react'
+//@ts-ignore
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
+
 
 const TestimonialSection = () => {
+  const images=["https://images.unsplash.com/photo-1534690999400-b6aa76c07fa3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/photo-1534690999400-b6aa76c07fa3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/photo-1534690999400-b6aa76c07fa3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/photo-1534690999400-b6aa76c07fa3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D","https://images.unsplash.com/photo-1534690999400-b6aa76c07fa3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"]
   return (
     <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div className="container py-5 px-lg-5">
@@ -39,6 +45,21 @@ const TestimonialSection = () => {
         </div>
       </div>
     </div>
+
+    <Slider  direction="vertical"> 
+	{images?.map((item:any, index:any) => (
+		<div
+			key={index}
+			style={{ background: `url('${item}') no-repeat center center` }}
+		>
+			<div className="center">
+				<h1>{item.title||"sandeep"}</h1>
+				<p>{item.description||"no-repeat center center"}</p>
+				<button>{item.button||"about"}</button>
+			</div>
+		</div>
+	))}
+</Slider>
   </div>
   )
 }

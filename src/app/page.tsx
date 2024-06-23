@@ -20,7 +20,8 @@ export default function Home() {
   {/* Banner End */}
 
   {/* Skills Start */}
-  <SkillsSection />
+  {/* <SkillsSection /> */}
+  <ServiceSection PageName="home" />
   {/* Skills End */}
 
   {/* About Start */}
@@ -32,12 +33,10 @@ export default function Home() {
   {/* Facts End */}
 
   {/* Service Start */}
-  <ServiceSection />
+  {/* <ServiceSection /> */}
   {/* Service End */}
 
-  {/* Newsletter Start */}
-  <NewsletterSection />
-  {/* Newsletter End */}
+ 
 
   {/* Projects Start */}
   <ProjectsSection />
@@ -48,9 +47,11 @@ export default function Home() {
   {/* Testimonial End */}
 
   {/* Team Start */}
-  <TeamsSection />
+  {/* <TeamsSection /> */}
   {/* Team End */}
-
+ {/* Newsletter Start */}
+ <NewsletterSection />
+  {/* Newsletter End */}
   {/* Back to Top */}
   <BackToTopBtn />
 </div>

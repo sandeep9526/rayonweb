@@ -680,6 +680,8 @@
 
 .fadeInUp {
   animation-name: fadeInUp;
+  max-height: fit-content;
+  height: 500px;
 }
 
 @keyframes fadeInUpBig {

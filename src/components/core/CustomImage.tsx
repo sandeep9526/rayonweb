@@ -9,7 +9,7 @@ export default function CustomImage({ src,width,height, blurData,alt, ...rest }:
 
   return (
     <Image
-      src={imgSrc}
+      src={imgSrc||"/img/placeholder.jpg"}
       width={width || "0"}
       height={height || "0"}
       sizes="100vw"
@@ -19,9 +19,9 @@ export default function CustomImage({ src,width,height, blurData,alt, ...rest }:
       onError={() => {
         setImgSrc("/img/placeholder.jpg");
       }}
-      loading="lazy"
+      // loading="lazy"
       {...rest}
-      alt={alt}
+      alt={alt||""}
     />
   );
 }

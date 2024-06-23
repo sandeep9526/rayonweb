@@ -56,10 +56,6 @@ export default function RootLayout({
         <link href="/lib/animate/animate.min.css" rel="stylesheet" />
         <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
         <link href="/lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-
-awesome.min.css" rel="stylesheet" integrity="sha384-
-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
-crossOrigin="anonymous" />
         {/* Customized Bootstrap Stylesheet */}
         {/* <link href="/css/bootstrap.min.css" rel="stylesheet" />
         {/* Template Stylesheet */}

@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomImage from '../core/CustomImage'
 
 const ProjectsSection = () => {
   return (
@@ -21,90 +22,66 @@ const ProjectsSection = () => {
         <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
           <div className="rounded overflow-hidden">
             <div className="position-relative overflow-hidden">
-              <img className="img-fluid w-100" src="img/portfolio-1.jpg" alt="" />
-              <div className="portfolio-overlay">
-                <a className="btn btn-square btn-outline-light mx-1"  href="img/portfolio-1.jpg" data-lightbox="portfolio"><i className="fa fa-eye" /></a>
-                <a className="btn btn-square btn-outline-light mx-1"  href=""><i className="fa fa-link" /></a>
-              </div>
+              <CustomImage className="img-fluid w-100" src="/img/projects/dimo.png" alt="" />
             </div>
-            <div className="bg-light p-4">
-              <p className="text-primary fw-medium mb-2">UI / UX Design</p>
-              <h5 className="lh-base mb-0">Digital Agency Website Design And Development
+            <div className="bg-light p-4 project-details">
+              <h5 className="lh-base mb-0">DIMO Book Publishing
+              <p className="fw-small mb-2">An easy-to-use system that manages the process of creating books simply, efficiently and cost-effectively </p>
               </h5></div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+        <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
           <div className="rounded overflow-hidden">
             <div className="position-relative overflow-hidden">
-              <img className="img-fluid w-100" src="img/portfolio-2.jpg" alt="" />
-              <div className="portfolio-overlay">
-                <a className="btn btn-square btn-outline-light mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i className="fa fa-eye" /></a>
-                <a className="btn btn-square btn-outline-light mx-1"  href=""><i className="fa fa-link" /></a>
-              </div>
+              <CustomImage className="img-fluid w-100" src="/img/projects/allenunwin.png" alt="" />
             </div>
-            <div className="bg-light p-4">
-              <p className="text-primary fw-medium mb-2">UI / UX Design</p>
-              <h5 className="lh-base mb-0">Digital Agency Website Design And Development
+            <div className="bg-light p-4 project-details">
+              <h5 className="lh-base mb-0">Allen & Unwin
+              <p className="fw-small mb-2">Allen & Unwin is Australia's leading independent publisher and is the 2023 Publisher of the Year. A&U have been voted "Publisher of the Year" fifteen times.</p>
               </h5></div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+        <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
           <div className="rounded overflow-hidden">
             <div className="position-relative overflow-hidden">
-              <img className="img-fluid w-100" src="img/portfolio-3.jpg" alt="" />
-              <div className="portfolio-overlay">
-                <a className="btn btn-square btn-outline-light mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i className="fa fa-eye" /></a>
-                <a className="btn btn-square btn-outline-light mx-1"  href=""><i className="fa fa-link" /></a>
-              </div>
+              <CustomImage className="img-fluid w-100" src="/img/projects/murdoch.png" alt="" />
             </div>
-            <div className="bg-light p-4">
-              <p className="text-primary fw-medium mb-2">UI / UX Design</p>
-              <h5 className="lh-base mb-0">Digital Agency Website Design And Development
+            <div className="bg-light p-4 project-details">
+              <h5 className="lh-base mb-0">Murdoch Books
+              <p className="fw-small mb-2">Murdoch Books is an Australian publisher, mainly of gardening and cook books. The company had its beginnings when The Advertiser of Adelaide started printing magazines.</p>
               </h5></div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+        <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
           <div className="rounded overflow-hidden">
             <div className="position-relative overflow-hidden">
-              <img className="img-fluid w-100" src="img/portfolio-4.jpg" alt="" />
-              <div className="portfolio-overlay">
-                <a className="btn btn-square btn-outline-light mx-1" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i className="fa fa-eye" /></a>
-                <a className="btn btn-square btn-outline-light mx-1"  href=""><i className="fa fa-link" /></a>
-              </div>
+              <CustomImage className="img-fluid w-100" src="/img/projects/acc.png" alt="" />
             </div>
-            <div className="bg-light p-4">
-              <p className="text-primary fw-medium mb-2">UI / UX Design</p>
-              <h5 className="lh-base mb-0">Digital Agency Website Design And Development
+            <div className="bg-light p-4 project-details">
+              <h5 className="lh-base mb-0">Australian Copyright Council
+              <p className="fw-small mb-2">Australian Copyright Council is an Australian non-profit organisation established in 1968 whose purpose is to promote understanding of copyright law in Australia.</p>
               </h5></div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+        <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
           <div className="rounded overflow-hidden">
             <div className="position-relative overflow-hidden">
-              <img className="img-fluid w-100" src="img/portfolio-5.jpg" alt="" />
-              <div className="portfolio-overlay">
-                <a className="btn btn-square btn-outline-light mx-1" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i className="fa fa-eye" /></a>
-                <a className="btn btn-square btn-outline-light mx-1" href=""><i className="fa fa-link" /></a>
-              </div>
+              <CustomImage className="img-fluid w-100" src="/img/projects/afraimpress.png" alt="" />
             </div>
-            <div className="bg-light p-4">
-              <p className="text-primary fw-medium mb-2">UI / UX Design</p>
-              <h5 className="lh-base mb-0">Digital Agency Website Design And Development
+            <div className="bg-light p-4 project-details">
+              <h5 className="lh-base mb-0">Affirm Press
+              <p className="fw-small mb-2">Affirm Press publishes a broad range of non-fiction books and a select fiction list.</p>
               </h5></div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+        <div className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
           <div className="rounded overflow-hidden">
             <div className="position-relative overflow-hidden">
-              <img className="img-fluid w-100" src="img/portfolio-6.jpg" alt="" />
-              <div className="portfolio-overlay">
-                <a className="btn btn-square btn-outline-light mx-1" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i className="fa fa-eye" /></a>
-                <a className="btn btn-square btn-outline-light mx-1" href=""><i className="fa fa-link" /></a>
-              </div>
+              <CustomImage className="img-fluid w-100" src="/img/projects/bankingquest.png" alt="" />
             </div>
-            <div className="bg-light p-4">
-              <p className="text-primary fw-medium mb-2">UI / UX Design</p>
-              <h5 className="lh-base mb-0">Digital Agency Website Design And Development
+            <div className="bg-light p-4 project-details">
+              <h5 className="lh-base mb-0">Banking Quest
+              <p className="fw-small mb-2">Banking Quest aims to support the present and the aspiring bankers by updating their knowledge through the platform of this website.</p>
               </h5></div>
           </div>
         </div>
