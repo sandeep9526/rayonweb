@@ -1,5 +1,7 @@
 "use client"
+import Link from 'next/link';
 import React, { useEffect } from 'react';
+import CustomImage from './CustomImage';
 
 const Header = () => {
   useEffect(() => {
@@ -25,17 +27,11 @@ const Header = () => {
     <div className="container-xxl position-relative p-0">
       <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 sticky-top shadow-sm">
         <a href="/" className="navbar-brand p-0">
-          <img
+          <CustomImage
             alt="Logo"
-            loading="lazy"
-            width={0}
-            height={0}
-            decoding="async"
-            data-nimg={1}
-            style={{ color: 'transparent', width: '100%', height: 'auto' }}
-            sizes="100vw"
-            srcSet="/_next/image?url=%2Fimg%2Flogo.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2Flogo.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2Flogo.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2Flogo.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2Flogo.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2Flogo.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2Flogo.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2Flogo.png&w=3840&q=75 3840w"
-            src="http://localhost:3000/_next/image?url=%2Fimg%2Flogo.png&w=3840&q=75"
+            width={100}
+            height={100}
+            src="/img/logo1.png"
           />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -43,41 +39,38 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav mx-auto py-0">
-            <a href="index.html" className="nav-item nav-link active">
+            <Link href="/" className="nav-item nav-link active">
               Home
-            </a>
-            <a href="about.html" className="nav-item nav-link">
+            </Link>
+            <Link href="/about" className="nav-item nav-link">
               About
-            </a>
-            <a href="service.html" className="nav-item nav-link">
+            </Link>
+             <Link href="/service" className="nav-item nav-link">
               Service
-            </a>
-            <a href="project.html" className="nav-item nav-link">
+            </Link>
+             <Link href="/project" className="nav-item nav-link">
               Project
-            </a>
+            </Link>
             <div className="nav-item dropdown">
-              <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+               <Link href="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                 Pages
-              </a>
+              </Link>
               <div className="dropdown-menu m-0">
-                <a href="team.html" className="dropdown-item">
+                <Link href="/team" className="dropdown-item">
                   Our Team
-                </a>
-                <a href="testimonial.html" className="dropdown-item">
+                </Link>
+                <Link href="/testimonial" className="dropdown-item">
                   Testimonial
-                </a>
-                <a href="404.html" className="dropdown-item">
-                  404 Page
-                </a>
+                </Link>
               </div>
             </div>
-            <a href="contact.html" className="nav-item nav-link">
+            <Link href="/contact" className="nav-item nav-link">
               Contact
-            </a>
+            </Link>
           </div>
-          <a href="/" className="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">
+          <Link href="/" className="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">
             Get Started
-          </a>
+          </Link>
         </div>
       </nav>
       {/* Progress Bar */}

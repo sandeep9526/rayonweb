@@ -16,7 +16,7 @@ const SkillsSection = () => {
           <FaLaptopCode size={70} className="text-primary mb-4" />
           {/* <i className="fa fa-3x fa-laptop-code text-primary mb-4" /> */}
           <h5 className="mb-3">Design &amp; Development</h5>
-          <p className="m-0">"Design & Development" is the strategic process of creating and refining products through iterative planning, design, testing, and implementation to meet user needs effectively and drive innovation.</p>
+          <p className="m-0">The strategic process of creating and refining products through iterative planning, design, and implementation to meet user needs effectively and drive innovation.</p>
         </div>
       </div>
       <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">

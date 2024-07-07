@@ -9,8 +9,8 @@ const AboutSection = () => {
       <div className="row g-5 align-items-center">
         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
           <p className="section-title text-secondary">About Us<span /></p>
-          <h1 className="mb-5">#1 Rayonweb solution with 5+ years of experience</h1>
-          <p className="mb-4">Rayonweb Solutions, with over 5+ years of experience, specializes in delivering innovative digital solutions tailored to client needs.</p>
+          <h1 className="mb-5">#1 RayonWeb Solutions with 5+ years of experience</h1>
+          <p className="mb-4">RayonWeb Solutions, with over 5+ years of experience, specializes in delivering innovative digital solutions tailored to client needs.</p>
           <div className="skill mb-4">
             <div className="d-flex justify-content-between">
               <p className="mb-2">Web Designing and development</p>
